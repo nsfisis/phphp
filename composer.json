@@ -1,0 +1,26 @@
+{
+    "name": "nsfisis/phphp",
+    "description": "Toy self-hosted PHP interpreter",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nsfisis",
+            "email": "nsfisis@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.4"
+        },
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "require-dev": {
+        "symplify/easy-coding-standard": "^12.5.9"
+    },
+    "scripts": {
+        "lint": "ecs check",
+        "fmt": "ecs check --fix"
+    }
+}
