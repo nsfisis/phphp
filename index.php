@@ -1195,8 +1195,8 @@ $env['funcs'] = [];
 $env['consts'] = [];
 
 if (defined('PHPHP')) {
+    echo "Running" . str_repeat(" on PHPHP", PHPHP) . " on PHP\n";
     if (PHPHP < 2) {
-        echo "Running" . str_repeat(" on PHPHP", PHPHP) . " on PHP\n";
         $file = './index.php';
     } else {
         $file = './hello.php';
